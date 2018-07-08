@@ -5,7 +5,7 @@
 ## What I did:
 A calculator program was made to take in command line arguments to perform sum, product, gcd or lcm functions depending on what the first argument was passed. IMPLEMENTATION: the command line arguments were loaded into vectors. Using these vectors, the correct number of arguments was checked (ensure that at least one argument is given in the command line). Depending on the command or function given in the command line (sum, product, gcd, or lcm) then that respective function is called with the passed in numeric values (which were loaded onto a vector). If no numeric functions are provided after a chosen function then the program will still exit successfuly. 
 
-Function implementations:
+Function implementations (detailed comments provided in source code):
 1. check_length(): this function was made to check if zero arguments were given in the command line (not including calc) and panic if needed.
 2. calculate(): this function was designed using a series of if statements to carry out the desired function based on what command is passed in. If no numerical arguments are given and a valid command is passed in the we still exit sucessfully.
 3. sum(): The sum of all numbers in the passed in vector is stored and returned. The initial result is initialized as 0.
